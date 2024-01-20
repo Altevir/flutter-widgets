@@ -12,7 +12,7 @@ class _Widget1BannerState extends State<Widget1Banner> {
   Widget build(BuildContext context) {
     return Banner(
       message: const String.fromEnvironment('environment'),
-      location: BannerLocation.topEnd,
+      location: BannerLocation.topStart,
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Theme.of(context).colorScheme.primary,
