@@ -15,10 +15,17 @@ class _Widget1BannerState extends State<Widget1Banner> {
       location: BannerLocation.topStart,
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Theme.of(context).colorScheme.primary,
           title: const Text('Banner'),
         ),
         body: Container(),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            Navigator.pushNamed(context, '/widget2');
+          },
+          child: const Icon(
+            Icons.arrow_forward,
+          ),
+        ),
       ),
     );
   }
