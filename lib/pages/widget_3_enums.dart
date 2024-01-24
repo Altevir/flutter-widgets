@@ -77,11 +77,6 @@ class _Widget3EnumsState extends State<Widget3Enums> {
                 log('Valor selecionado: ${selectedItem.name}');
               },
             ),
-            // const SizedBox(height: 20),
-            // const Text(
-            //   'Banco selecionado:',
-            //   style: TextStyle(fontWeight: FontWeight.bold),
-            // ),
           ],
         ),
       ),
