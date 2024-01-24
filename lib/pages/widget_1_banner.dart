@@ -18,14 +18,6 @@ class _Widget1BannerState extends State<Widget1Banner> {
           title: const Text('Banner'),
         ),
         body: Container(),
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            Navigator.pushNamed(context, '/widget2');
-          },
-          child: const Icon(
-            Icons.arrow_forward,
-          ),
-        ),
       ),
     );
   }
